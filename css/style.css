@@ -14,7 +14,7 @@ body{
 }
 
 .logo{
-    width: 100px;
+    width: 130px;
     cursor: pointer;
 }
 
@@ -23,7 +23,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 15px 8%;
     background-color: #F5DA81;
     box-shadow: 0px 3px #b189045e;
 }
