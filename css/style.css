@@ -23,6 +23,10 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     padding: 15px 8%;
     background-color: #BCF5A9;
     box-shadow: 0px 3px #3bdf007a;
