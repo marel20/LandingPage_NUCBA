@@ -44,6 +44,19 @@ header{
     color: #000000;
 }
 
+.button{
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
 .repair{
     width: 100%;
     margin-top: 7%;
