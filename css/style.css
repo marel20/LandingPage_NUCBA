@@ -67,7 +67,7 @@ header{
 }
 .button:hover, .nav-link:hover{
     transform: scale(1.1);
-    background-color: #28a7463f;
+    background-color: #28a74623;
     padding: 10px;
     border-radius: 10px;
 }
