@@ -13,6 +13,9 @@
                 max-width: 80%;
                 margin: 0 10%;
             }
+            .text{
+                font-size: 13px;
+            }
             .card-services{
                 max-width: 90%;
             }
