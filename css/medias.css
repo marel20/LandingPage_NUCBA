@@ -1,5 +1,57 @@
         /*-- 480px --*/
         @media (min-width: 0px) and (max-width: 767px) {
+            .visible{
+                display: none;
+                visibility: hidden;
+            }
+            .hidden{
+                display: block;
+                visibility: visible;
+            }
+            header{
+                justify-content: space-between;
+            }
+            .logo{
+                width: 40px;
+            }
+            nav{
+                gap: 20px;
+            }
+            .nav-list{
+                position: absolute;
+                top: 70px;
+                left: 5%;
+                right: 5%;
+                width: 90%;
+                flex-direction: column;
+                background-color: #BCF5A9;
+                border: 2px solid #3bdf007a;
+                border-top: 0px;
+                border-radius: 0px 0px 15px 15px;
+                align-items: flex-start;
+                padding: 45px 30px;
+                gap: 25px;
+                z-index: 2;
+                display: none;
+                
+            }
+            .nav-link a{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .button{
+                font-size: 13px;
+                padding: 10px;
+            }
+            .toggle{
+                display: flex;
+                cursor: pointer;
+                order: 2;
+            }
+            #menu-toggle:checked + .nav-list{
+                display: flex;
+            }
+
             #home{
                 margin-top: 25%;
                 flex-direction: column;
@@ -15,15 +67,29 @@
             }
             .text{
                 font-size: 13px;
-            }
+            } 
             .card-services{
+                width: 70%;
                 max-width: 90%;
+                flex-wrap: wrap;
             }
             .card-services img {
                 width: 100%;
             }
             .repair {
                 margin-top: 25%;
+            }
+            footer{
+                padding: 15px;
+            }
+            .text-img{
+                flex-direction: column;
+            }
+            .contact{
+                border: 2px solid #cfbbc5;
+            }
+            .logo-footer img{
+                width: 50%;
             }
           }
         
