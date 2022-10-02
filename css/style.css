@@ -7,6 +7,7 @@
     list-style-type: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -95,7 +96,7 @@ nav{
 
 /* End Navbar style */
 
-#home{
+.home{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -113,7 +114,7 @@ nav{
     text-align: justify;
     margin: 2% auto;
 }
-#home img{
+.home img{
     width: 100%;
     margin: auto;
 }
@@ -127,7 +128,7 @@ iframe{
     padding: 2% 3%;
 }
 
-#company{
+.company{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -138,18 +139,18 @@ iframe{
     width: 100%;
     font-size: 18px;
 }
-#company img{
+.company img{
     width: 100%;
     margin: auto;
 }
 
-#services{
+.services{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 1% auto 0 auto;
+    margin: 50px auto 0 auto;
     padding: 5% 3%;
     width: 100%;
 }

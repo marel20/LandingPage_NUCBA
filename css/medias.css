@@ -19,7 +19,7 @@
             }
             .nav-list{
                 position: absolute;
-                top: 70px;
+                top: 72px;
                 left: 5%;
                 right: 5%;
                 width: 90%;
@@ -33,7 +33,6 @@
                 gap: 25px;
                 z-index: 2;
                 display: none;
-                
             }
             .nav-link a{
                 font-size: 18px;
@@ -52,16 +51,16 @@
                 display: flex;
             }
 
-            #home{
+            .home{
                 margin-top: 25%;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
             }
-            #home img{
+            .home img{
                 max-width: 80%;
             }
-            #home iframe{
+            .home iframe{
                 max-width: 80%;
                 margin: 0 10%;
             }
