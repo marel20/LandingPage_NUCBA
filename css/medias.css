@@ -84,9 +84,21 @@
             }
             .text-img{
                 flex-direction: column;
+                gap: 10px;
+            }
+            .contact-img img{
+                width: 100%;
             }
             .contact{
                 border: 2px solid #cfbbc5;
+                gap: 50px;
+                align-items: center;
+                padding: 30px;
+            }
+            .contact-text{
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
             }
             .logo-footer img{
                 width: 50%;
@@ -95,12 +107,47 @@
         
                 /*-- 768px --*/
         @media (min-width: 768px) and (max-width: 987px) {
-
+            .card-services p{
+                font-size: 12px;
+            }
+            .text-img{
+                flex-direction: column;
+            }
+            .contact-img img{
+                width: 100%;
+                padding: 30px;
+            }
+            .contact{
+                width: 94%;
+                border: 2px solid #cfbbc5;
+                gap: 50px;
+                align-items: center;
+                padding: 30px;
+            }
+            .contact-text{
+                flex-direction: row;
+            }
         }
         
                 /*-- 1279px --*/
         @media (min-width: 988px) and (max-width: 1279px) {
-
+            .text-img{
+                flex-direction: column;
+            }
+            .contact-img img{
+                width: 100%;
+                padding: 30px;
+            }
+            .contact{
+                width: 95%;
+                border: 2px solid #cfbbc5;
+                gap: 50px;
+                align-items: center;
+                padding: 30px;
+            }
+            .contact-text{
+                flex-direction: row;
+            }
         }
         
                 /*-- 1280+px --*/

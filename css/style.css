@@ -155,13 +155,13 @@ iframe{
 }
 
 .card-services{
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    margin: 2% auto;
+    margin: 50px auto;
     padding: 0 3%;
     gap: 30px;
 }
@@ -170,6 +170,12 @@ iframe{
     width: 100%;
     border-radius: 20px;
     box-shadow: 5px 5px #28a745;
+}
+.card-services p{
+    display: flex;
+    justify-content: center;
+    margin: 35px auto;
+    color: #000000;
 }
 
 #contact{
@@ -226,12 +232,13 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5% auto 0 auto;
+    margin: 60px auto 0 auto;
 }
 .text-img{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     width: 100%;
     flex-wrap: nowrap;
 }
@@ -240,7 +247,7 @@ footer{
     flex-direction: column;
     gap: 150px;
     width: 100%;
-    padding: 3%;
+    padding: 44px;
     border-top: 2px solid #cfbbc5;
     border-bottom: 2px solid #cfbbc5;
 }
@@ -255,7 +262,7 @@ footer{
     align-items: center;
 }
 .contact-img img{
-    width: 99.6%;
+    width: 99%;
 }
 .social-media{
     display: flex;
